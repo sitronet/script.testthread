@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.testthread" name="test pxbmct with long thread" version="0.0.a" provider-name="rondrach">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">win pyxbmct demo + long threads script</summary>
+		<description lang="en_GB">a demo script to create a window and a long thread to see the interaction of butons </description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
